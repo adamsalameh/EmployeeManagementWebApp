@@ -1,0 +1,50 @@
+﻿@model EmployeeManagementWebApp.Models.Employee
+
+@{
+    ViewBag.Title = "Search and Display Employee";
+}
+
+<h2>Search and Display Employee</h2>
+<p>Current Department: @ViewBag.Department</p>
+
+<form asp-action="Search" method="post">
+    <div class="form-group">
+        <label for="EmployeeID">Enter Employee ID:</label>
+        <input type="text" id="EmployeeID" name="EmployeeID" class="form-control" />
+        <input type="hidden" name="department" value="@ViewBag.Department" />
+    </div>
+    <button type="submit" class="btn btn-primary btn-sm" style="width: auto;">Search</button>
+</form>
+
+@if (Model != null)
+{
+    <hr />
+    <h3>Employee Details</h3>
+    <div>
+        <dl class="row">
+            <dt class="col-sm-2">First Name</dt>
+            <dd class="col-sm-10">@Model.FirstName</dd>
+            <dt class="col-sm-2">Last Name</dt>
+            <dd class="col-sm-10">@Model.LastName</dd>
+            <dt class="col-sm-2">Department</dt>
+            <dd class="col-sm-10">@Model.Department</dd>
+            <dt class="col-sm-2">Position</dt>
+            <dd class="col-sm-10">@Model.Position</dd>
+            <dt class="col-sm-2">Address</dt>
+            <dd class="col-sm-10">@Model.Address</dd>
+            <dt class="col-sm-2">Email</dt>
+            <dd class="col-sm-10">@Model.Email</dd>
+            <dt class="col-sm-2">Phone Number</dt>
+            <dd class="col-sm-10">@Model.PhoneNumber</dd>
+        </dl>
+    </div>
+    <div>
+        <a asp-action="Edit" asp-route-id="@Model.EmployeeID" asp-route-department="@ViewBag.Department" class="btn btn-primary btn-sm" style="width: auto;">Edit</a>
+        <form asp-action="Delete" method="post" style="display:inline;">
+            <input type="hidden" name="id" value="@Model.EmployeeID" />
+            <input type="hidden" name="department" value="@ViewBag.Department" />
+            <button type="submit" class="btn btn-danger btn-sm" style="width: auto;">Delete</button>
+        </form>
+        <a asp-action="Index" class="btn btn-secondary btn-sm" asp-route-department="@ViewBag.Department" style="width: auto;">Back to List</a>
+    </div>
+}

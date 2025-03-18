@@ -1,0 +1,19 @@
+body {
+    background-color: #f0f8ff; /* AliceBlue */
+    color: #00008b; /* DarkBlue */
+}
+
+.navbar {
+    background-color: #00008b; /* DarkBlue */
+}
+
+.btn-primary {
+    background-color: #00008b; /* DarkBlue */
+    border-color: #00008b;
+}
+
+    .btn-primary:hover {
+        background-color: #4169e1; /* RoyalBlue */
+        border-color: #4169e1;
+    }
+

@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "hK3uw0lUzlD7NnGz819BgVDN4Xl9rkGfWtt/4kySQpFrkaUp2m9aH8jmxeNR60Z9rrflLI7NXxsKhzkN5Ptq6Q==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\asyas\\source\\repos\\EmployeeManagementWebApp\\EmployeeManagementWebApp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\asyas\\.nuget\\packages\\runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+    "C:\\Users\\asyas\\.nuget\\packages\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+    "C:\\Users\\asyas\\.nuget\\packages\\runtime.win-x64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-x64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+    "C:\\Users\\asyas\\.nuget\\packages\\runtime.win-x86.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-x86.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+    "C:\\Users\\asyas\\.nuget\\packages\\system.data.sqlclient\\4.9.0\\system.data.sqlclient.4.9.0.nupkg.sha512"
+  ],
+  "logs": []
+}

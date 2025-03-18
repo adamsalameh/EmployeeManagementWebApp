@@ -1,0 +1,19 @@
+body {
+    background-color: #f8f0ff; /* LavenderBlush */
+    color: #4b0082; /* Indigo */
+}
+
+.navbar {
+    background-color: #4b0082; /* Indigo */
+}
+
+.btn-primary {
+    background-color: #4b0082; /* Indigo */
+    border-color: #4b0082;
+}
+
+    .btn-primary:hover {
+        background-color: #9370db; /* MediumPurple */
+        border-color: #9370db;
+    }
+

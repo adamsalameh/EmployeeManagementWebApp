@@ -1,0 +1,19 @@
+body {
+    background-color: #fffaf0; /* FloralWhite */
+    color: #8b0000; /* DarkRed */
+}
+
+.navbar {
+    background-color: #8b0000; /* DarkRed */
+}
+
+.btn-primary {
+    background-color: #8b0000; /* DarkRed */
+    border-color: #8b0000;
+}
+
+    .btn-primary:hover {
+        background-color: #b22222; /* FireBrick */
+        border-color: #b22222;
+    }
+

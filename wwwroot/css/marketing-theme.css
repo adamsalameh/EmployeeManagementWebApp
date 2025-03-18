@@ -1,0 +1,19 @@
+body {
+    background-color: #f0fff0; /* Honeydew */
+    color: #006400; /* DarkGreen */
+}
+
+.navbar {
+    background-color: #006400; /* DarkGreen */
+}
+
+.btn-primary {
+    background-color: #006400; /* DarkGreen */
+    border-color: #006400;
+}
+
+    .btn-primary:hover {
+        background-color: #32cd32; /* LimeGreen */
+        border-color: #32cd32;
+    }
+

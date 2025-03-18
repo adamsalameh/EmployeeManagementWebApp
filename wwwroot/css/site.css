@@ -1,0 +1,56 @@
+/* Base styles */
+html {
+    font-size: 14px;
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+}
+
+/* Responsive typography */
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+/* Table responsiveness */
+.table {
+    width: 100%;
+    overflow-x: auto;
+}
+
+/* Responsive buttons */
+.btn {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+/* Ensure buttons are aligned and sized appropriately for mobile */
+@media (max-width: 767px) {
+    .btn-group .btn {
+        margin-bottom: 5px;
+        width: 100%; /* Make buttons full-width on small screens */
+    }
+
+    /* Ensure description list items are responsive */
+    .row .col-sm-2, .row .col-sm-10 {
+        width: 100%;
+    }
+
+    /* Ensure form inputs and buttons are responsive */
+    .form-group {
+        margin-bottom: 15px;
+    }
+
+    .form-control {
+        width: 100%;
+    }
+
+    .btn {
+        width: 100%; /* Make buttons full-width on small screens */
+        margin-bottom: 10px;
+    }
+}
